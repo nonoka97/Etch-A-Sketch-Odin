@@ -1,0 +1,30 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    margin: 0px;
+}
+
+.cell {
+    border: 1px solid black; /* Add borders to the cells for visualization */
+    transition: background-color 0.3s ease;
+}
+
+.cell.pixelated {
+    background-color: black; /* You can set any pixelated color here */
+}
+
+.select-size {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
